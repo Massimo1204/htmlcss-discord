@@ -15,6 +15,7 @@ body{
     font-family: 'Whitney', sans-serif;
 }
 
+/* HEADER CON NAVIGAZIONE */
 header{
     height: 80px;
     background-color: transparent;
@@ -28,12 +29,17 @@ header{
     height: 100%;
 }
 
+/* POSIZIONE LOGO */
+#logo{
+    left: 0;
+}
+
+/* FORMA NAV */
 header .container-header nav ul{
     list-style: none;
     text-align: center;
     vertical-align: middle;
     line-height: 80px;
-
 }
 
 nav ul li{
@@ -46,10 +52,7 @@ nav ul li a{
     text-decoration: none;
 }
 
-#logo{
-    left: 0;
-}
-
+/* BOTTONE GENERALE E BOTTONE ACCEDI */
 .button{
     display: inline-block;
     padding: 12px 15px;
@@ -63,6 +66,7 @@ nav ul li a{
     font-size: 0.9em;
 }
 
+/* IMMAGINE BACKGROUND JUMBOTRON */
 .jumbotron{
     background-image: url(../img/jumbo.png);
     background-size: cover;
@@ -70,6 +74,7 @@ nav ul li a{
     background-position: center;
 }
 
+/* FORMA TESTO JUMBOTRON */
 .testo-jumbotron{
     width: 43%;
     text-align: center;
@@ -90,6 +95,7 @@ nav ul li a{
     margin-bottom: 25px;
 }
 
+/* BOTTONI JUMBOTRON */
 .jumbotron-button{
     font-size: 1.5em;
     margin: 15px;
@@ -107,6 +113,7 @@ nav ul li a{
     padding: 20px 35px 18px 35px;
 }
 
+/* FORMA TESTO DELLE SEZIONI */
 .section-text{
     width: 29.4%;
     height: 100%;
@@ -124,6 +131,7 @@ nav ul li a{
     margin-top: 30px;
 }
 
+/* CLASSI COMUNI */
 .width{
     width: 60vw;
 }
@@ -133,8 +141,17 @@ nav ul li a{
     margin-bottom: 150px;
 }
 
+.center{
+    margin: 0 auto;
+}
+
 .float-left{
     float: left;
+}
+
+.center-y{
+    top: 50%;
+    transform: translate(0 , -50%);
 }
 
 .float-right{
@@ -147,15 +164,6 @@ nav ul li a{
 
 .relative{
     position: relative;
-}
-
-.center{
-    margin: 0 auto;
-}
-
-.center-y{
-    top: 50%;
-    transform: translate(0 , -50%);
 }
 
 .white{
