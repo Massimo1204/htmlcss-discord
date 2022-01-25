@@ -15,6 +15,12 @@ body{
     font-family: 'Whitney', sans-serif;
 }
 
+/* DIMESIONE SEZIONI */
+.section-height-margin{
+    height: 715px;
+    margin-top: 150px;  
+}
+
 /* HEADER CON NAVIGAZIONE */
 header{
     height: 80px;
@@ -72,6 +78,7 @@ nav ul li a{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    margin-top: 0;
 }
 
 /* FORMA TESTO JUMBOTRON */
@@ -131,27 +138,31 @@ nav ul li a{
     margin-top: 30px;
 }
 
+.facile{
+    background-color: #f6f6f6;
+}
 /* CLASSI COMUNI */
 .width{
     width: 60vw;
 }
 
-.section-height-margin{
-    height: 715px;
-    margin-bottom: 150px;
+.section-container{
+    width: 100vw;
+    height: 865px;
 }
 
-.center{
-    margin: 0 auto;
-}
-
-.float-left{
-    float: left;
+.center-x{
+    left: 50%;
+    transform: translate(-50% , 0);
 }
 
 .center-y{
     top: 50%;
     transform: translate(0 , -50%);
+}
+
+.float-left{
+    float: left;
 }
 
 .float-right{
